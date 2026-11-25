@@ -1,0 +1,23 @@
+{
+  "name": "Agrima — إدارة المخزون والرولات والبكر",
+  "short_name": "Agrima",
+  "description": "نظام ERP محلي كامل لإدارة المخزون والرولات والبكر والإنتاج وأذون الصرف وحجوزات العملاء — يعمل بدون إنترنت وبدون أي خدمات سحابية.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F1F4F8",
+  "theme_color": "#0F2B4C",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "تسجيل البكر — إضافة رول جديد", "url": "./#reels-add" },
+    { "name": "أذون الصرف", "url": "./#issuedocs" },
+    { "name": "حجوزات العملاء", "url": "./#reservations" }
+  ]
+}
